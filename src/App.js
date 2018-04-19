@@ -4,7 +4,7 @@ import firebase from 'firebase';
 import firebaseConfig from '../firebase_config';
 
 import { Header } from './components/common';
-import LoginForm from './componnents/LoginForm';
+import LoginForm from './components/LoginForm';
 
 class App extends Component {
   componentWillMount() {
