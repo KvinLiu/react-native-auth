@@ -72,7 +72,7 @@ class LoginForm extends Component {
             label="Passwrod"
             placeholder="password"
             value={password}
-            conChangeText={ password => this.setState ({ password })}
+            onChangeText={ password => this.setState({ password })}
             />
         </CardSection>
 
